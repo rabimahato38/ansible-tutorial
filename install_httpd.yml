@@ -1,0 +1,16 @@
+- name: install httpd
+  hosts: all
+  become: true
+  tasks:
+    - name: update repository index
+      dnf:
+        update_cache=yes
+
+    - name: install httpd packag
+      dnf:
+        name: httpd
+        state: latest
+    - name: add php suppport for dnf
+      dnf:
+        name: php
+        state: latest

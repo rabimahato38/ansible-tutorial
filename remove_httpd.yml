@@ -1,0 +1,13 @@
+- name: install httpd
+  hosts: all
+  become: true
+  tasks:
+
+    - name: install httpd packag
+      dnf:
+        name: httpd
+        state: absent
+    - name: add php suppport for dnf
+      dnf:
+        name: php
+        state: latest
