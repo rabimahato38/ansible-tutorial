@@ -1,0 +1,2000 @@
+   39  tmux
+   40  ll
+   41  ll
+   42  ansible all -m ping
+   43  vim v1.ym
+   44  vim v1.yml
+   45  ansible-playbook v1.yml -C
+   46  vim v1.yml
+   47  ansible-playbook v1.yml -C
+   48  vim v1.yml 
+   49  vim v1.yml
+   50  cp v1.yml v3.yml
+   51  vim v3.yml 
+   52  vim v4.yml
+   53  ansible-playbook v4.yml -C
+   54  ansible-playbook v4.yml -e us=user1 -e pw=redhat
+   55  ansible-playbook v4.yml -e us=user2 -e pw=redhat
+   56  ansible-playbook v4.yml -e us=user2 -e pw=redhat1
+   57  ssh 172.31.6.17
+   58  vim v4.yml 
+   59  ansible-playbook v4.yml -e us=manish -e pw=redhat
+   60  ssh 172.31.14.94
+   61  vim v4.yml 
+   62  vim v5.yml
+   63  ansible-playbook v5.yml -C
+   64  vim v5.yml
+   65  ansible-playbook v5.yml -C
+   66  vim v5.yml
+   67  ll
+   68  cd playbook/
+   69  ll
+   70  uptim
+   71  uptime
+   72  ansible all -m ping
+   73  ansible --version
+   74  su - ansible
+   75  sudo useradd ansible
+   76  sudo passwd ansinble
+   77  sudo passwd ansible
+   78  cd
+   79  echo $0
+   80  sudo yum install bash-completion -y
+   81  source /etc/profile.d/bash_completion.sh
+   82  su - ansible 
+   83  sudo -i 
+   84  tmux
+   85  rrocky
+   86  passwd rocky
+   87  passwd
+   88  12345
+   89  su - rocky
+   90  sudo yum install fish -y
+   91  fish  # Switch to fish immediately
+   92  ansible all -m ping
+   93  mkdir ansible-playbook
+   94  cd ansible-playbook/
+   95  mkdir {inventory,playbooks}
+   96  ll
+   97  cd inventory/
+   98  ll
+   99  vim hosts
+  100  ansible all -m ping
+  101  vim 01-hello.yml
+  102  ansible-playbook 01-hello.yml 
+  103  vim 01-hello.yml
+  104  ansible-playbook 01-hello.yml 
+  105  vim playbbok.yml
+  106  ansible-playbook -i inventory.ini playbbok.yml 
+  107  ansible-playbook -i  playbbok.yml 
+  108  ansible-playbook playbbok.yml 
+  109  sudo dnf install ansible-lint -y
+  110  sudo dnf install ansible-lint -y --skip-broken
+  111  rrocky
+  112  ll
+  113  exit
+  114  mkdir youtube
+  115  ll
+  116  cd youtube/
+  117  ls
+  118  ll
+  119  sudo dnf install firefox -y
+  120  ll
+  121  cd youtube/
+  122  ll
+  123  cd
+  124  uptime
+  125  df -Th
+  126  dnf history
+  127  vim script-01.sh
+  128  cd scripts/
+  129  ll
+  130  chmod +x script-01.sh 
+  131  ll
+  132  bash script-01.sh 
+  133  llll
+  134  ll
+  135  bash sci
+  136  lll
+  137  bash script-01.sh 
+  138  man history 
+  139  help history
+  140  vim hello.sh
+  141  bash hello.sh 
+  142  bash -n hello.sh 
+  143  echo $?
+  144  bash -n hello.sh 
+  145  vim read.sh
+  146  ll
+  147  uptime
+  148  w
+  149  dnf update
+  150  sudo dnf update
+  151  ll
+  152  lsblk
+  153  df -Th
+  154  cd scripts/
+  155  ll
+  156  lsblk
+  157  w
+  158  du /
+  159  df -Th
+  160  du -sh 
+  161  du
+  162  ll
+  163  cd playbook/
+  164  ll
+  165  cat variables.yaml
+  166  ll
+  167  cat scalars.yml 
+  168  ifconfig
+  169  ip a
+  170  lsblj
+  171  lsblk
+  172  pwd
+  173  uptime
+  174  w
+  175  sudo dnf install pidstat -y
+  176  susdo dnf install sysstat
+  177  sudo dnf install sysstat
+  178  sudo dnf install pidstat -y
+  179  pidstat
+  180  man pidstat
+  181  lsblk
+  182  ansible-galaxy 
+  183  ansible-galaxy  -v
+  184  ansible-galaxy 
+  185  ansible-galaxy role
+  186  ll
+  187  cd scripts/
+  188  ll
+  189  sudo dnf install stress-ng -y
+  190  lsblk
+  191  df -Th
+  192  sudo dnf install stress-ng -y
+  193  ll
+  194  rpm -qa stress
+  195  dnf repolist 
+  196  rpm -Uvh https://repo.zabbix.com/zabbix/7.4/release/rocky/10/noarch/zabbix-release-latest-7.4.el10.noarch.rpm
+  197  sudo rpm -Uvh https://repo.zabbix.com/zabbix/7.4/release/rocky/10/noarch/zabbix-release-latest-7.4.el10.noarch.rpm
+  198  dnf clean all
+  199  dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent2
+  200  sudo dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent2
+  201  sudo dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent2 --allowerasing
+  202  sudo dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent2 --allowerasing --skip-broken
+  203  sudo dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent2 --allowerasing --skip-broken --best
+  204  dnf install zabbix-agent2-plugin-mongodb zabbix-agent2-plugin-mssql zabbix-agent2-plugin-postgresql
+  205  sudo dnf install zabbix-agent2-plugin-mongodb zabbix-agent2-plugin-mssql zabbix-agent2-plugin-postgresql
+  206  mysql -u root -p
+  207  sudo -i
+  208  sudo -i
+  209  ll
+  210  cd playbook/
+  211  ll
+  212  init 0
+  213  shutdown --now
+  214  shutdown 
+  215  sudo
+  216  sudo -i
+  217  ll
+  218  ll -h
+  219  dnf install firefox
+  220  sudo dnf install firefox
+  221  cd scripts/
+  222  bash script-2.sh 
+  223  ll
+  224  bash script-2.sh 
+  225  sudo -i
+  226  ll
+  227  cd scripts/
+  228  ll
+  229  cat hello.sh 
+  230  ll
+  231  ll > awk.txt
+  232  cat awk.txt 
+  233  vmstat
+  234  vmstat -a
+  235  vmstat -f
+  236  vmstat -m
+  237  vmstat -t
+  238  vmstat -t 3 10
+  239  netstat -ntlup 
+  240  ss -ntulp
+  241  cd scripts/
+  242  ll
+  243  echo "rocky" | cut -b 2
+  244  echo "rocky" | cut -b 2-5
+  245  echo "rocky" | cut -b 2,5
+  246  cat awk.txt | cut -b 2,5
+  247  cat awk.txt | cut -b 2,5,5-7
+  248  cat hello.sh | cut -c5-
+  249  cat hello.sh | cut -c5
+  250  cut -d ':' -f1 /etc/passwd
+  251  cut -d ':' -f1 /etc/passwd | grep root
+  252  cut -d ':' -f1,4 /etc/passwd | grep root
+  253  cut -d ':' -f1,4,10 /etc/passwd | grep root
+  254  cut -d ':' -f1,4,8 /etc/passwd | grep root
+  255  cut -d ':' -f1,4,6 /etc/passwd | grep root
+  256  ll
+  257  ll
+  258  cd scripts/
+  259  ls -al
+  260  ll
+  261  lsblk
+  262  cd
+  263  sudo -i
+  264  su - scriptuser 
+  265  htop
+  266  ll
+  267  su - scriptuser 
+  268  ll
+  269  lsblk
+  270  pwd
+  271  lsblk
+  272  pwd
+  273  uptime
+  274  w
+  275  cat /proc/diskstats 
+  276  vmstat
+  277  vmstat 1 2
+  278  ll
+  279  lsblk
+  280  sudo  -i
+  281  su - scriptuser 
+  282  useradd playbook
+  283  sudo useradd playbook
+  284  sudo passwd playbook 
+  285  cd playbook/
+  286  ll
+  287  vim v6.yml
+  288  ll
+  289  cd playbook/
+  290  ll
+  291  vim v6.yml
+  292  ifco
+  293  ifconfig
+  294  ip a
+  295  ll
+  296  slb
+  297  ccd pla
+  298  pwd
+  299  su - scriptuser 
+  300  tmux
+  301  ll
+  302  cd playbook/
+  303  ll
+  304  free -m
+  305  swapon -s
+  306  top
+  307  ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -n10
+  308  cd
+  309  cat /proc/meminfo 
+  310  echo 3 > /proc/sys/vm/drop_caches 
+  311  sudo -i 
+  312  ps -eo ppid,cmd,ppid,%mem,%cpu --sort=-%cpu | head
+  313  sudo -i
+  314  free -m
+  315  ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
+  316  htop
+  317  dmesg | grep -i oom
+  318  journalctl -xe | grep -i kill
+  319  sar -r
+  320  dnf install obs
+  321  sudo dnf install obs
+  322  cat /proc/meminfo 
+  323  uptime
+  324  free -m
+  325  iostat -x -1
+  326  iostat -x 1
+  327  iostat
+  328  uptime 
+  329  iotop
+  330  dnf install iotop
+  331  sudo dnf install iotop
+  332  iotop
+  333  blkid
+  334  sudo blkid
+  335  exit
+  336  sudo -i
+  337  sudo dnf update
+  338  uptime -p 2>/dev/null || uptime
+  339  less /var/log/messages
+  340  sudo -i
+  341  basename 
+  342  man basename
+  343  cat /var/log/boot.log 
+  344  less /var/log/boot.log 
+  345  sudo dnf install httpd -y
+  346  cat /var/log/httpd/
+  347  sudo -i
+  348  cd /tmp/sgid/
+  349  ll
+  350  mkdir test
+  351  cat testsgid 
+  352  vim testsgid 
+  353  exit
+  354  ll
+  355  useradd username
+  356  sudo useradd username
+  357  sudo passwd username
+  358  su - username 
+  359  su - 
+  360  su - username 
+  361  sudo usermod -L username 
+  362  sudo passwd -S username 
+  363  passwd -l username
+  364  sudo passwd -l username
+  365  sudo cat /etc/shadow
+  366  cd /tmp/sgid/teststickybit
+  367  ll
+  368  cat test1 
+  369  vim test1 
+  370  ll
+  371  setfacl -g g:ram:wx test1 t
+  372  setfacl -g g:ram:wx test1
+  373  cd ..
+  374  setfacl -g g:ram:wx teststickybit/
+  375  setfacl --help
+  376  setfacl -x teststickybit/
+  377  ll
+  378  cd ..
+  379  ll
+  380  setfacl -m u:ram:rwx yeesy 
+  381  getfacl yeesy 
+  382  setfacl -m d:u:john:rwx 
+  383  ll
+  384  setfacl -m d:u:john:rwx tmux-0
+  385  ll
+  386  mask
+  387  dnf install mask
+  388  sudo dnf install mask
+  389  cd /tmp/
+  390  ll
+  391  cd sgid/
+  392  ll
+  393  cat tests
+  394  cat testsgid 
+  395  vim teststickybit/
+  396  pwd
+  397  ll
+  398  vim teststickybit/
+  399  cd teststickybit/
+  400  ll
+  401  vim test
+  402  ll
+  403  su - username
+  404  ll
+  405  chmod +s scripts/
+  406  ll
+  407  stat scripts/
+  408  chmod 4 yeesy 
+  409  ls -l
+  410  chmod 4755 yeesy 
+  411  ls -l
+  412  cp -rf yeesy /tmp/
+  413  ls -l /tmp/
+  414  su - username 
+  415  cd /tmp/
+  416  ll
+  417  chmod 4756 yeesy 
+  418  ls -l
+  419  su - username 
+  420  sudo -i
+  421  ll
+  422  lsblk
+  423  pwd
+  424  uptime
+  425  ping 8.8.8.8
+  426  lsblk
+  427  sshd=$(systemctl is-active sshd)
+  428  ll
+  429  sudo -i
+  430  ll
+  431  ls -l script
+  432  ls -l scripts/
+  433  cd scripts/
+  434  ll
+  435  cat script-2.sh 
+  436  ll
+  437  vim script-3.sh
+  438  ll
+  439  touch script-3.sh
+  440  bash script-3.sh 
+  441  last -x | head
+  442  journalctl -b -1
+  443  df -i
+  444  for i in /var/*; do echo "$i : $(find $i | wc -l)"; done
+  445  sudo -i
+  446  ll
+  447  ps -aux --sort=-%mem
+  448  ps -aux --sort=-%mem | head -n10
+  449  ll
+  450  free -m
+  451  swapon -s
+  452  swapon
+  453  ps -aux --sort=%mem | head -5
+  454  free -h
+  455  less /var/log/messages
+  456  sudo less /var/log/messages
+  457  journalctl -k | grep -i oom
+  458  sudo journalctl -k | grep -i oom
+  459  echo $?
+  460  journalctl
+  461  journalctl -l
+  462  journalctl -k
+  463  journalctl -k -b
+  464  journalctl -k -b -1
+  465  journalctl -k -f
+  466  journalctl -k -p err
+  467  journalctl -k -p
+  468  journalctl -k
+  469  ll
+  470  cat rocky-ansible.pem 
+  471  PWD
+  472  pwd
+  473  lsblk
+  474  pwd
+  475  lsblk
+  476  df -Th
+  477  sudo -i
+  478  lsblk
+  479  df -Th
+  480  mkfs.xfs /dev/nvme1n1 
+  481  sudo -i
+  482  sudo -i 
+  483  ansible all -m ping 
+  484  ip a
+  485  sudo yum install zabbix-get -y
+  486  ll
+  487  lsblk
+  488  pwd
+  489  df -Th
+  490  rpm -ivh zabbix
+  491  rpm
+  492  rpm -d
+  493  dnf install httpd
+  494  rpm -ivh httpd
+  495  rpm -qa httpd
+  496  rpm -evh httpd
+  497  rpm -evh httpd* 
+  498  dnf remove httpd
+  499  sudo dnf install http
+  500  sudo dnf install httpd
+  501  rpm -qa | grep httpd
+  502  rpm -qa httpd*
+  503  rpm -qi httpd
+  504  rpm -qi httpd-core 
+  505  rpm -qf /etc/httpd/conf/httpd.conf 
+  506  rpm -qi httpd-core 
+  507  cd /etc/yum.repos.d/
+  508  ll
+  509  lsblk
+  510  cat rocky.repo 
+  511  vim rocky.repo 
+  512  dnf repolist all
+  513  dnf install firefox -y
+  514  sudo dnf install firefox -y
+  515  dnf provides 
+  516  dnf clean all
+  517  dnf makecache 
+  518  rpm -ivh package.rpm
+  519  ll
+  520  file yeesy 
+  521  file rocky-ansible.pem 
+  522  file test
+  523  lsblk
+  524  df -Th
+  525  sudo -i
+  526  createrepo /repo
+  527  yum install --downloadonly --downloaddir=/repo httpd
+  528  mkdir /var/www/html/repo
+  529  sudo mkdir  -p /var/www/html/repo
+  530  cd /etc/yum.repos.d/
+  531  ll
+  532  cat epel.repo 
+  533  vim local.repo
+  534  sudo vim local.repo
+  535  dnf clean all
+  536  dnf makecache 
+  537  createrepo /repo
+  538  sudo vim local.repo 
+  539  createrepo /repo
+  540  dnf makecache 
+  541  rm local.repo 
+  542  sudo rm local.repo 
+  543  vim local.repo
+  544  sudo vim local.repo
+  545  cat local.repo 
+  546  echo > local.repo 
+  547  sudo > local.repo 
+  548  sudo echo > local.repo 
+  549  sudo echo > ping
+  550  sudo -i
+  551  lsblk
+  552  pwd
+  553  ping 8.8.8.8
+  554  uptime
+  555  df -h
+  556  df -i
+  557  df -ih
+  558  free -h
+  559  rpm -qa > pre_patch_packages.txt
+  560  cat pre_patch_packages.txt 
+  561  cat pre_patch_packages.txt  | grep ping
+  562  uptime
+  563  df -h
+  564  df -i
+  565  free -h
+  566  rpm -qa >> pre_patch_packages.txt 
+  567  ansible-config list
+  568  ansible-config view
+  569  ansible-config dump
+  570  export ANSIBLE_GATHERING=explicit
+  571  ansible-config dump |grep GATHERING
+  572  cd
+  573  sudo -i
+  574  sudo -i
+  575  lsblk
+  576  pwd
+  577  ll
+  578  cd youtube/
+  579  ll
+  580  cd
+  581  pwd
+  582  df -Th
+  583  dnf history
+  584  dnf history 13
+  585  dnf history 15
+  586  dnf history undo 14 
+  587  sudo -i
+  588  lsblk
+  589  sudo -i
+  590  cat /etc/os-release 
+  591  ssh
+  592  mount | grep "on / "
+  593  sudo -i
+  594  ll
+  595  file test 
+  596  sar -u
+  597  sar -r
+  598  sar -d
+  599  sar -r
+  600  ass -ntulp
+  601  ss -ntulp
+  602  netstat
+  603  dnf install netstat
+  604  sudo -i
+  605  ansible --version
+  606  ansible -v
+  607  ansible all -m ping
+  608  ll
+  609  cd playbook/
+  610  ll
+  611  ansible p2.yml --check
+  612  ansible-playbook p2.yml --check
+  613  ansible-playbook p2.yml --diff
+  614  ansible-playbook p2.yml --check --diff
+  615  ansible-playbook p2.yml --syntax-check
+  616  dnf update
+  617  sudo -i
+  618  lsblk
+  619  df -Th
+  620  cd playbook/
+  621  ll
+  622  vim ansible_conditional.yml
+  623  ansible-playbook ansible_conditional.yml 
+  624  vim ansible_conditional.yml
+  625  systemctl status sshd
+  626  journalctl -xe
+  627  htop
+  628  cd /home/ansible/
+  629  cd /home/rocky/
+  630  ll
+  631  sudo -i
+  632  dnf repolist
+  633  dnf repolist all
+  634  ping google.com
+  635  dig google.com
+  636  sudo -i
+  637  cd /etc/logrotate.d/
+  638  ls
+  639  ll
+  640  cat zabbix-
+  641  cat zabbix-agent 
+  642  cat rsyslog 
+  643  cat chrony 
+  644  cat samba 
+  645  mkdir /rmp/log
+  646  mkdir /tmp/log
+  647  vim /tmp/log/tmp.log
+  648  logrotate -f /etc/logrotate.conf 
+  649  sudo logrotate -f /etc/logrotate.conf 
+  650  cd /tmp/
+  651  ll
+  652  cd log/
+  653  ll
+  654  lsbl
+  655  lsblk
+  656  pwd
+  657  blkid
+  658  lsblk
+  659  vgs
+  660  dnf install vsftpd -y
+  661  sudo dnf install vsftpd
+  662  sudo -i
+  663  sudo -i
+  664  ll
+  665  lsblk
+  666  uptime
+  667  w
+  668  htop
+  669  lsblk
+  670  pwd
+  671  df -Th
+  672  ll
+  673  sidp -i
+  674  sudo -i
+  675  sudo -i
+  676  dnf repolist
+  677  sudo -i
+  678  ll
+  679  file rocky-ansible.pem 
+  680  sudo -i
+  681  lsblk
+  682  df -Th
+  683  ll
+  684  sudo -i
+  685  pwd
+  686  ll
+  687  man rsync
+  688  man rsync | bat
+  689  dnf install bat
+  690  sudo -i
+  691  sudo dnf install docker-ce -y
+  692  sudo dnf install docker -y
+  693  sudo -i
+  694  cd /etc/pki/tls/
+  695  ll
+  696  cd private/
+  697  ll
+  698  cd ..
+  699  ls
+  700  cd certs/
+  701  ll
+  702  ls -al
+  703  pwd
+  704  cd ..
+  705  pwd
+  706  ll
+  707  cd private/
+  708  ls -al
+  709  cd ..
+  710  yum install httpd mod_ssl -y
+  711  sudo -i
+  712  ls
+  713  sudo -i 
+  714  sudo -i
+  715  lsblk
+  716  tmux
+  717  w
+  718  sudo dnf install httpd
+  719  sudo -i
+  720  sudo -i
+  721  ll
+  722  slblk
+  723  lsblk
+  724  ll
+  725  lsblk
+  726  ansible all -m ping
+  727  ansible all 
+  728  ansible all --list-hosts
+  729  cd playbook/
+  730  ll
+  731  ansible-playbook --check modules.yaml 
+  732  rocky
+  733  sudo dnf install nginx -y
+  734  systemctl start nginx
+  735  systemctl status nginx.service 
+  736  journalctl -xeu nginx
+  737  sudo find / -name nginx
+  738  vim /etc/nginx/nginx.conf
+  739  sudo vim /etc/nginx/nginx.conf
+  740  systemctl restart nginx.service 
+  741  sudo -i
+  742  slblk
+  743  lsblk
+  744  rpm -qa nginx
+  745  systemctl status nginx.service 
+  746  systemctl enable nginx.service 
+  747  sudo -i
+  748  netstat -tulnp | grep nginx
+  749  dnf install netstat
+  750  sudo dnf install netstat
+  751  ss -ntulp | grep nginx
+  752  ls of
+  753  lsof -P 443
+  754  man lsof
+  755  lsof | grep nginx
+  756  sudo lsof | grep nginx
+  757  lsof | grep 443
+  758  sudo -i
+  759  curl localhost
+  760  systemctl status nginx.service 
+  761  ss -tulnp | grep nginx
+  762  systemctl status nginx.service 
+  763  journalctl -xeu nginx
+  764  firewall-cmd --permanent --add-service=http
+  765  firewall-cmd --reload
+  766  vim /etc/nginx/conf.d/mywebsite.conf
+  767  sudo vim /etc/nginx/conf.d/mywebsite.conf
+  768  sudo vim /var/www/mywebsite
+  769  sudo -i
+  770  date
+  771  cd scripts/
+  772  ll
+  773  cat > welcome.sh
+  774  bash welcome.sh 
+  775  touch shoppinig.sh
+  776  bash shoppinig.sh 
+  777  bash shoppinig.sh banana 50
+  778  touch test.sh
+  779  bash test.sh 
+  780  bash test.sh  linux admin
+  781  vim check_service.sh
+  782  bash check_service.sh  nginx
+  783  systemctl start nginx
+  784  ./check_service.sh httpd
+  785  bash check_service.sh httpd
+  786  bash check_service.sh  nginx
+  787  ./check_service.sh httpd
+  788  vim pass_argument.sh
+  789  bash pass_argument.sh  shell is fun
+  790  sudo -i
+  791  ll
+  792  sudo -i
+  793  cd playbook/
+  794  ll
+  795  systemctl status ntp
+  796  systemctl status chrony
+  797  sudo systemctl status chrony
+  798  systemctl status chrony.service
+  799  ll
+  800  sudo -i
+  801  sudo -i
+  802  sudo -i
+  803  sudo -i
+  804  root
+  805  sudo -i
+  806  ls -ls
+  807  ls -Z
+  808  ls -lZ
+  809  scp pre_patch_packages.txt rocky@43.204.110.6:/tmp
+  810  dd if=/dev/zero of=file bs=1G count=1
+  811  ll -lh
+  812  scp file rocky@43.204.110.6:/tmp/
+  813  scp file rocky@ansible-node1:/tmp
+  814  sftp rocky@43.204.110.6
+  815  ll
+  816  rm -rf file 
+  817  ls /tmp/sshkeypairmethod 
+  818  find / -size +1G -mtime -10
+  819  sudo find / -size +1G -mtime -10 | wc -l
+  820  sudo find / -size +1G -mtime -10
+  821  ll -h
+  822  rsync -av rocky@43.204.110.6:~/file.gz
+  823  ll
+  824  cd /tmp/
+  825  cd ~
+  826  pwd
+  827  cd /tmp/
+  828  ll
+  829  rm sshkeypairmethod 
+  830  cd
+  831  ll
+  832  rsync -avz /data rocky@43.204.110.6 .
+  833  rsync -avz /data rocky@43.204.110.6 /backup
+  834  rsync -avz ansible-playbook/ rocky@43.204.110.6 /backup
+  835  sudo rsync -avz ansible-playbook/ rocky@43.204.110.6 /backup
+  836  sudo -i
+  837  nmcli device status 
+  838  nmcli connection show 
+  839  ethtool enth0
+  840  ip route
+  841  route -n
+  842  iproute -n
+  843  iproute
+  844  ip route
+  845  ls -l
+  846  ll
+  847  lls
+  848  ls
+  849  poweroff
+  850  sudo -i
+  851  journalctl -u sshd -f
+  852  journalctl -u sshd 
+  853  journalctl -b
+  854  sudo -i
+  855  dnf update
+  856  vim sample.log
+  857  grep -l "linuxthefinalboss" *.log
+  858  grep -l "linuxthefinalboss" sample.log 
+  859  grep -l "linuxthefinalboss" *.log
+  860  grep -i "linuxthefinalboss" sample.log
+  861  grep -n "linuxthefinalboss" sample.log 
+  862  cat sample.log 
+  863  grep -n "login" sample.log 
+  864  grep -n "user" sample.log 
+  865  grep -i "user" sample.log
+  866  grep -v "linux"
+  867  grep -v "linux" sample.log 
+  868  vim pattern.txt
+  869  grep -f pattern.txt sample.log 
+  870  grep -R "lost" /home
+  871  grep -R "connection" sample.log 
+  872  cat sample.log 
+  873  grep -R "Login" sample.log 
+  874  grep -R "Login" /home/
+  875  cut -b1-3 sample.log 
+  876  cat sample.log 
+  877  cut -d' ' -f2 sample.log 
+  878  cut -d ' ' -f sample.log 
+  879  cut
+  880  cut --help
+  881  cut -c1-8 sample.log 
+  882  cat sample.log 
+  883  sed s/user/admin/go/g sample.log 
+  884  sed s/user/admin/g sample.log 
+  885  sed s/admin/rabi/go/2 sample.log 
+  886  sed s/admin/rabi/go/ sample.log 
+  887  sed 's/admin/rabi/g' sample.log
+  888  sed /user/go/I sample.log 
+  889  sed -e  /user/go/I sample.log 
+  890  uptime
+  891  sudo dnf repolist
+  892  sudo dnf update
+  893  ll
+  894  sudo -i
+  895  uptime
+  896  w
+  897  ll
+  898  m
+  899  sed '4d' sample.log 
+  900  sed '2,4s/user/go' sample.log 
+  901  awk /user/ {$print} sample.log 
+  902  awk /user/ {print} sample.log 
+  903  awk '{print $1 $3}' sample.log 
+  904  awk -F: '{print $1}' /etc/passwd
+  905  awk '{print $1 $3}' sample.log 
+  906  awk '{print $1 $6}' sample.log 
+  907  awk '{print $1,$6}' sample.log 
+  908  awk '{print $1,$4$6}' sample.log 
+  909  awk 'NR>=2 && NR<=7 {print NR,$0}' sample.log 
+  910  awk 'length($0)>10' sample.log 
+  911  awk 'length($0)>5' sample.log 
+  912  awk 'length($0)>15' sample.log 
+  913  awk 'length($0)<15' sample.log 
+  914  awk 'length($0)<1' sample.log 
+  915  awk 'length($0)<5' sample.log 
+  916  awk '$4=="linux" {print $0}' sample.log 
+  917  awk '{print $4}' sample.log 
+  918  sort sample.log 
+  919  sort -o sample.log output.log
+  920  sort -o  output.log sample.log 
+  921  cat output.log 
+  922  sort -r sample.log 
+  923  sort -n sample.log 
+  924  sort -k3n sample.log 
+  925  sort -c sample.log 
+  926  sort -c output.log 
+  927  sort -c sample.log 
+  928  sort -u sample.log 
+  929  vim sample.log 
+  930  sort -u sample.log 
+  931  uniq sample.log 
+  932  uniq -c sample.log 
+  933  uniq -d sample.log 
+  934  sort -u sample.log 
+  935  uniq -f 2 sample.log 
+  936  uniq -i sample.log 
+  937  uniq -f 5 sample.log 
+  938  grep ERROR sample.log 
+  939  grep 'ERROR' sample.log 
+  940  grep -i login sample.log 
+  941  grep user1 sample.log 
+  942  grep -n 'WARN' sample.log 
+  943  grep -c 'INFO' sample.log 
+  944  grep -v 'ERROR' sample.log 
+  945  grep -r 'ERROR' sample.log 
+  946  grep -r 'ERROR' /var/log
+  947  grep -l 'disk space low' *.log
+  948  grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}' sample.log 
+  949  grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/messages
+  950  sudi -i grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/messages
+  951  sudo -i grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/messages
+  952  sudo -i grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/secure
+  953  grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' sample.log
+  954  sudo -i grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/secure
+  955  awk '{print $4,$5}' sample.log 
+  956  awk '{print $4, $5}' sample.log 
+  957  awk '{print $4,5}' sample.log 
+  958  awk '{print $45}' sample.log 
+  959  awk '{print $4,print $5}' sample.log 
+  960  awk '$3 == "ERROR" {print $4}' sample.log 
+  961  cat sample.log 
+  962  awk '{count[$3]++} END {for (level in count) print level, count[level]}' sample.log
+  963  awk '$3 == "INFO" {sum += $2} END {print "Total INFO seconds:", sum}' sample.log
+  964  awk -F' ' 'OFS="\t" {print $4, $5}' sample.log
+  965  sed 's/user1/admin/g' sample.log
+  966  sed '/INFO/d' sample.log 
+  967  sed -n '2,5p' sample.log 
+  968  sed -i.bak 's/user1/admin/g' sample.log
+  969  cat sample.log
+  970  cat sample.log.bak 
+  971  sed -e 's/user1/admin/g' -e 's/^ERROR/ALERT: ERROR/g' sample.log
+  972  sudo -i
+  973  ll
+  974  lsbl
+  975  lsblk
+  976  journalctl -xe
+  977  journalctl 
+  978  journalctl  -r
+  979  journalctl  -n
+  980  journalctl  -n 25
+  981  journalctl -f
+  982  journalctl -k
+  983  journalctl -u ssh
+  984  sudo journalctl -u ssh
+  985  journalctl --list-boots 
+  986  less /var/log/boot.log 
+  987  journalctl -u sshd
+  988  journalctl -u ssh
+  989  journalctl _PID=1234
+  990  journalctl -p 3 -xb
+  991  man snap
+  992  dnf install htop
+  993  sudo -i
+  994  mpstat
+  995  sysctl
+  996  sudo dnf install glances -y
+  997  sudo dnf install epel-release -y
+  998  sudo dnf install glances -y
+  999  sudo firewall-cmd --permanent --add-port=61208/tcp
+ 1000  uptime -p
+ 1001  ll
+ 1002  sudo dnf install git -y
+ 1003  which git
+ 1004  git
+ 1005  cat .ssh/
+ 1006  ll
+ 1007  cd .ssh/
+ 1008  ll
+ 1009  ssh-keygen -t ed25519 -C "rabi default"
+ 1010  ll
+ 1011  cat id_ed25519.pub 
+ 1012  git clone git@github.com:rabimahato38/ansible-tutorial.git
+ 1013  ll
+ 1014  mv ansible-tutorial/  ~
+ 1015  cd
+ 1016  ll
+ 1017  cd ansible-
+ 1018  ll
+ 1019  cd ansible-tutorial/
+ 1020  ll
+ 1021  git config  --global user.name "RABI "
+ 1022  git config --global user.email "rabimahato8340@gmail.com"
+ 1023  cat ~/.gitconfig 
+ 1024  vim README.md 
+ 1025  git status 
+ 1026  git diff
+ 1027  git add README.md 
+ 1028  git diff
+ 1029  git status 
+ 1030  git commit -m "updated read me file"
+ 1031  git push origin  master
+ 1032  git push origin master
+ 1033  git branch
+ 1034  git push origin main
+ 1035  git status 
+ 1036  git branch 
+ 1037  history
+ 1038  history > history.txt
+   60  ssh 172.31.14.94
+   61  vim v4.yml 
+   62  vim v5.yml
+   63  ansible-playbook v5.yml -C
+   64  vim v5.yml
+   65  ansible-playbook v5.yml -C
+   66  vim v5.yml
+   67  ll
+   68  cd playbook/
+   69  ll
+   70  uptim
+   71  uptime
+   72  ansible all -m ping
+   73  ansible --version
+   74  su - ansible
+   75  sudo useradd ansible
+   76  sudo passwd ansinble
+   77  sudo passwd ansible
+   78  cd
+   79  echo $0
+   80  sudo yum install bash-completion -y
+   81  source /etc/profile.d/bash_completion.sh
+   82  su - ansible 
+   83  sudo -i 
+   84  tmux
+   85  rrocky
+   86  passwd rocky
+   87  passwd
+   88  12345
+   89  su - rocky
+   90  sudo yum install fish -y
+   91  fish  # Switch to fish immediately
+   92  ansible all -m ping
+   93  mkdir ansible-playbook
+   94  cd ansible-playbook/
+   95  mkdir {inventory,playbooks}
+   96  ll
+   97  cd inventory/
+   98  ll
+   99  vim hosts
+  100  ansible all -m ping
+  101  vim 01-hello.yml
+  102  ansible-playbook 01-hello.yml 
+  103  vim 01-hello.yml
+  104  ansible-playbook 01-hello.yml 
+  105  vim playbbok.yml
+  106  ansible-playbook -i inventory.ini playbbok.yml 
+  107  ansible-playbook -i  playbbok.yml 
+  108  ansible-playbook playbbok.yml 
+  109  sudo dnf install ansible-lint -y
+  110  sudo dnf install ansible-lint -y --skip-broken
+  111  rrocky
+  112  ll
+  113  exit
+  114  mkdir youtube
+  115  ll
+  116  cd youtube/
+  117  ls
+  118  ll
+  119  sudo dnf install firefox -y
+  120  ll
+  121  cd youtube/
+  122  ll
+  123  cd
+  124  uptime
+  125  df -Th
+  126  dnf history
+  127  vim script-01.sh
+  128  cd scripts/
+  129  ll
+  130  chmod +x script-01.sh 
+  131  ll
+  132  bash script-01.sh 
+  133  llll
+  134  ll
+  135  bash sci
+  136  lll
+  137  bash script-01.sh 
+  138  man history 
+  139  help history
+  140  vim hello.sh
+  141  bash hello.sh 
+  142  bash -n hello.sh 
+  143  echo $?
+  144  bash -n hello.sh 
+  145  vim read.sh
+  146  ll
+  147  uptime
+  148  w
+  149  dnf update
+  150  sudo dnf update
+  151  ll
+  152  lsblk
+  153  df -Th
+  154  cd scripts/
+  155  ll
+  156  lsblk
+  157  w
+  158  du /
+  159  df -Th
+  160  du -sh 
+  161  du
+  162  ll
+  163  cd playbook/
+  164  ll
+  165  cat variables.yaml
+  166  ll
+  167  cat scalars.yml 
+  168  ifconfig
+  169  ip a
+  170  lsblj
+  171  lsblk
+  172  pwd
+  173  uptime
+  174  w
+  175  sudo dnf install pidstat -y
+  176  susdo dnf install sysstat
+  177  sudo dnf install sysstat
+  178  sudo dnf install pidstat -y
+  179  pidstat
+  180  man pidstat
+  181  lsblk
+  182  ansible-galaxy 
+  183  ansible-galaxy  -v
+  184  ansible-galaxy 
+  185  ansible-galaxy role
+  186  ll
+  187  cd scripts/
+  188  ll
+  189  sudo dnf install stress-ng -y
+  190  lsblk
+  191  df -Th
+  192  sudo dnf install stress-ng -y
+  193  ll
+  194  rpm -qa stress
+  195  dnf repolist 
+  196  rpm -Uvh https://repo.zabbix.com/zabbix/7.4/release/rocky/10/noarch/zabbix-release-latest-7.4.el10.noarch.rpm
+  197  sudo rpm -Uvh https://repo.zabbix.com/zabbix/7.4/release/rocky/10/noarch/zabbix-release-latest-7.4.el10.noarch.rpm
+  198  dnf clean all
+  199  dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent2
+  200  sudo dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent2
+  201  sudo dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent2 --allowerasing
+  202  sudo dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent2 --allowerasing --skip-broken
+  203  sudo dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent2 --allowerasing --skip-broken --best
+  204  dnf install zabbix-agent2-plugin-mongodb zabbix-agent2-plugin-mssql zabbix-agent2-plugin-postgresql
+  205  sudo dnf install zabbix-agent2-plugin-mongodb zabbix-agent2-plugin-mssql zabbix-agent2-plugin-postgresql
+  206  mysql -u root -p
+  207  sudo -i
+  208  sudo -i
+  209  ll
+  210  cd playbook/
+  211  ll
+  212  init 0
+  213  shutdown --now
+  214  shutdown 
+  215  sudo
+  216  sudo -i
+  217  ll
+  218  ll -h
+  219  dnf install firefox
+  220  sudo dnf install firefox
+  221  cd scripts/
+  222  bash script-2.sh 
+  223  ll
+  224  bash script-2.sh 
+  225  sudo -i
+  226  ll
+  227  cd scripts/
+  228  ll
+  229  cat hello.sh 
+  230  ll
+  231  ll > awk.txt
+  232  cat awk.txt 
+  233  vmstat
+  234  vmstat -a
+  235  vmstat -f
+  236  vmstat -m
+  237  vmstat -t
+  238  vmstat -t 3 10
+  239  netstat -ntlup 
+  240  ss -ntulp
+  241  cd scripts/
+  242  ll
+  243  echo "rocky" | cut -b 2
+  244  echo "rocky" | cut -b 2-5
+  245  echo "rocky" | cut -b 2,5
+  246  cat awk.txt | cut -b 2,5
+  247  cat awk.txt | cut -b 2,5,5-7
+  248  cat hello.sh | cut -c5-
+  249  cat hello.sh | cut -c5
+  250  cut -d ':' -f1 /etc/passwd
+  251  cut -d ':' -f1 /etc/passwd | grep root
+  252  cut -d ':' -f1,4 /etc/passwd | grep root
+  253  cut -d ':' -f1,4,10 /etc/passwd | grep root
+  254  cut -d ':' -f1,4,8 /etc/passwd | grep root
+  255  cut -d ':' -f1,4,6 /etc/passwd | grep root
+  256  ll
+  257  ll
+  258  cd scripts/
+  259  ls -al
+  260  ll
+  261  lsblk
+  262  cd
+  263  sudo -i
+  264  su - scriptuser 
+  265  htop
+  266  ll
+  267  su - scriptuser 
+  268  ll
+  269  lsblk
+  270  pwd
+  271  lsblk
+  272  pwd
+  273  uptime
+  274  w
+  275  cat /proc/diskstats 
+  276  vmstat
+  277  vmstat 1 2
+  278  ll
+  279  lsblk
+  280  sudo  -i
+  281  su - scriptuser 
+  282  useradd playbook
+  283  sudo useradd playbook
+  284  sudo passwd playbook 
+  285  cd playbook/
+  286  ll
+  287  vim v6.yml
+  288  ll
+  289  cd playbook/
+  290  ll
+  291  vim v6.yml
+  292  ifco
+  293  ifconfig
+  294  ip a
+  295  ll
+  296  slb
+  297  ccd pla
+  298  pwd
+  299  su - scriptuser 
+  300  tmux
+  301  ll
+  302  cd playbook/
+  303  ll
+  304  free -m
+  305  swapon -s
+  306  top
+  307  ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -n10
+  308  cd
+  309  cat /proc/meminfo 
+  310  echo 3 > /proc/sys/vm/drop_caches 
+  311  sudo -i 
+  312  ps -eo ppid,cmd,ppid,%mem,%cpu --sort=-%cpu | head
+  313  sudo -i
+  314  free -m
+  315  ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
+  316  htop
+  317  dmesg | grep -i oom
+  318  journalctl -xe | grep -i kill
+  319  sar -r
+  320  dnf install obs
+  321  sudo dnf install obs
+  322  cat /proc/meminfo 
+  323  uptime
+  324  free -m
+  325  iostat -x -1
+  326  iostat -x 1
+  327  iostat
+  328  uptime 
+  329  iotop
+  330  dnf install iotop
+  331  sudo dnf install iotop
+  332  iotop
+  333  blkid
+  334  sudo blkid
+  335  exit
+  336  sudo -i
+  337  sudo dnf update
+  338  uptime -p 2>/dev/null || uptime
+  339  less /var/log/messages
+  340  sudo -i
+  341  basename 
+  342  man basename
+  343  cat /var/log/boot.log 
+  344  less /var/log/boot.log 
+  345  sudo dnf install httpd -y
+  346  cat /var/log/httpd/
+  347  sudo -i
+  348  cd /tmp/sgid/
+  349  ll
+  350  mkdir test
+  351  cat testsgid 
+  352  vim testsgid 
+  353  exit
+  354  ll
+  355  useradd username
+  356  sudo useradd username
+  357  sudo passwd username
+  358  su - username 
+  359  su - 
+  360  su - username 
+  361  sudo usermod -L username 
+  362  sudo passwd -S username 
+  363  passwd -l username
+  364  sudo passwd -l username
+  365  sudo cat /etc/shadow
+  366  cd /tmp/sgid/teststickybit
+  367  ll
+  368  cat test1 
+  369  vim test1 
+  370  ll
+  371  setfacl -g g:ram:wx test1 t
+  372  setfacl -g g:ram:wx test1
+  373  cd ..
+  374  setfacl -g g:ram:wx teststickybit/
+  375  setfacl --help
+  376  setfacl -x teststickybit/
+  377  ll
+  378  cd ..
+  379  ll
+  380  setfacl -m u:ram:rwx yeesy 
+  381  getfacl yeesy 
+  382  setfacl -m d:u:john:rwx 
+  383  ll
+  384  setfacl -m d:u:john:rwx tmux-0
+  385  ll
+  386  mask
+  387  dnf install mask
+  388  sudo dnf install mask
+  389  cd /tmp/
+  390  ll
+  391  cd sgid/
+  392  ll
+  393  cat tests
+  394  cat testsgid 
+  395  vim teststickybit/
+  396  pwd
+  397  ll
+  398  vim teststickybit/
+  399  cd teststickybit/
+  400  ll
+  401  vim test
+  402  ll
+  403  su - username
+  404  ll
+  405  chmod +s scripts/
+  406  ll
+  407  stat scripts/
+  408  chmod 4 yeesy 
+  409  ls -l
+  410  chmod 4755 yeesy 
+  411  ls -l
+  412  cp -rf yeesy /tmp/
+  413  ls -l /tmp/
+  414  su - username 
+  415  cd /tmp/
+  416  ll
+  417  chmod 4756 yeesy 
+  418  ls -l
+  419  su - username 
+  420  sudo -i
+  421  ll
+  422  lsblk
+  423  pwd
+  424  uptime
+  425  ping 8.8.8.8
+  426  lsblk
+  427  sshd=$(systemctl is-active sshd)
+  428  ll
+  429  sudo -i
+  430  ll
+  431  ls -l script
+  432  ls -l scripts/
+  433  cd scripts/
+  434  ll
+  435  cat script-2.sh 
+  436  ll
+  437  vim script-3.sh
+  438  ll
+  439  touch script-3.sh
+  440  bash script-3.sh 
+  441  last -x | head
+  442  journalctl -b -1
+  443  df -i
+  444  for i in /var/*; do echo "$i : $(find $i | wc -l)"; done
+  445  sudo -i
+  446  ll
+  447  ps -aux --sort=-%mem
+  448  ps -aux --sort=-%mem | head -n10
+  449  ll
+  450  free -m
+  451  swapon -s
+  452  swapon
+  453  ps -aux --sort=%mem | head -5
+  454  free -h
+  455  less /var/log/messages
+  456  sudo less /var/log/messages
+  457  journalctl -k | grep -i oom
+  458  sudo journalctl -k | grep -i oom
+  459  echo $?
+  460  journalctl
+  461  journalctl -l
+  462  journalctl -k
+  463  journalctl -k -b
+  464  journalctl -k -b -1
+  465  journalctl -k -f
+  466  journalctl -k -p err
+  467  journalctl -k -p
+  468  journalctl -k
+  469  ll
+  470  cat rocky-ansible.pem 
+  471  PWD
+  472  pwd
+  473  lsblk
+  474  pwd
+  475  lsblk
+  476  df -Th
+  477  sudo -i
+  478  lsblk
+  479  df -Th
+  480  mkfs.xfs /dev/nvme1n1 
+  481  sudo -i
+  482  sudo -i 
+  483  ansible all -m ping 
+  484  ip a
+  485  sudo yum install zabbix-get -y
+  486  ll
+  487  lsblk
+  488  pwd
+  489  df -Th
+  490  rpm -ivh zabbix
+  491  rpm
+  492  rpm -d
+  493  dnf install httpd
+  494  rpm -ivh httpd
+  495  rpm -qa httpd
+  496  rpm -evh httpd
+  497  rpm -evh httpd* 
+  498  dnf remove httpd
+  499  sudo dnf install http
+  500  sudo dnf install httpd
+  501  rpm -qa | grep httpd
+  502  rpm -qa httpd*
+  503  rpm -qi httpd
+  504  rpm -qi httpd-core 
+  505  rpm -qf /etc/httpd/conf/httpd.conf 
+  506  rpm -qi httpd-core 
+  507  cd /etc/yum.repos.d/
+  508  ll
+  509  lsblk
+  510  cat rocky.repo 
+  511  vim rocky.repo 
+  512  dnf repolist all
+  513  dnf install firefox -y
+  514  sudo dnf install firefox -y
+  515  dnf provides 
+  516  dnf clean all
+  517  dnf makecache 
+  518  rpm -ivh package.rpm
+  519  ll
+  520  file yeesy 
+  521  file rocky-ansible.pem 
+  522  file test
+  523  lsblk
+  524  df -Th
+  525  sudo -i
+  526  createrepo /repo
+  527  yum install --downloadonly --downloaddir=/repo httpd
+  528  mkdir /var/www/html/repo
+  529  sudo mkdir  -p /var/www/html/repo
+  530  cd /etc/yum.repos.d/
+  531  ll
+  532  cat epel.repo 
+  533  vim local.repo
+  534  sudo vim local.repo
+  535  dnf clean all
+  536  dnf makecache 
+  537  createrepo /repo
+  538  sudo vim local.repo 
+  539  createrepo /repo
+  540  dnf makecache 
+  541  rm local.repo 
+  542  sudo rm local.repo 
+  543  vim local.repo
+  544  sudo vim local.repo
+  545  cat local.repo 
+  546  echo > local.repo 
+  547  sudo > local.repo 
+  548  sudo echo > local.repo 
+  549  sudo echo > ping
+  550  sudo -i
+  551  lsblk
+  552  pwd
+  553  ping 8.8.8.8
+  554  uptime
+  555  df -h
+  556  df -i
+  557  df -ih
+  558  free -h
+  559  rpm -qa > pre_patch_packages.txt
+  560  cat pre_patch_packages.txt 
+  561  cat pre_patch_packages.txt  | grep ping
+  562  uptime
+  563  df -h
+  564  df -i
+  565  free -h
+  566  rpm -qa >> pre_patch_packages.txt 
+  567  ansible-config list
+  568  ansible-config view
+  569  ansible-config dump
+  570  export ANSIBLE_GATHERING=explicit
+  571  ansible-config dump |grep GATHERING
+  572  cd
+  573  sudo -i
+  574  sudo -i
+  575  lsblk
+  576  pwd
+  577  ll
+  578  cd youtube/
+  579  ll
+  580  cd
+  581  pwd
+  582  df -Th
+  583  dnf history
+  584  dnf history 13
+  585  dnf history 15
+  586  dnf history undo 14 
+  587  sudo -i
+  588  lsblk
+  589  sudo -i
+  590  cat /etc/os-release 
+  591  ssh
+  592  mount | grep "on / "
+  593  sudo -i
+  594  ll
+  595  file test 
+  596  sar -u
+  597  sar -r
+  598  sar -d
+  599  sar -r
+  600  ass -ntulp
+  601  ss -ntulp
+  602  netstat
+  603  dnf install netstat
+  604  sudo -i
+  605  ansible --version
+  606  ansible -v
+  607  ansible all -m ping
+  608  ll
+  609  cd playbook/
+  610  ll
+  611  ansible p2.yml --check
+  612  ansible-playbook p2.yml --check
+  613  ansible-playbook p2.yml --diff
+  614  ansible-playbook p2.yml --check --diff
+  615  ansible-playbook p2.yml --syntax-check
+  616  dnf update
+  617  sudo -i
+  618  lsblk
+  619  df -Th
+  620  cd playbook/
+  621  ll
+  622  vim ansible_conditional.yml
+  623  ansible-playbook ansible_conditional.yml 
+  624  vim ansible_conditional.yml
+  625  systemctl status sshd
+  626  journalctl -xe
+  627  htop
+  628  cd /home/ansible/
+  629  cd /home/rocky/
+  630  ll
+  631  sudo -i
+  632  dnf repolist
+  633  dnf repolist all
+  634  ping google.com
+  635  dig google.com
+  636  sudo -i
+  637  cd /etc/logrotate.d/
+  638  ls
+  639  ll
+  640  cat zabbix-
+  641  cat zabbix-agent 
+  642  cat rsyslog 
+  643  cat chrony 
+  644  cat samba 
+  645  mkdir /rmp/log
+  646  mkdir /tmp/log
+  647  vim /tmp/log/tmp.log
+  648  logrotate -f /etc/logrotate.conf 
+  649  sudo logrotate -f /etc/logrotate.conf 
+  650  cd /tmp/
+  651  ll
+  652  cd log/
+  653  ll
+  654  lsbl
+  655  lsblk
+  656  pwd
+  657  blkid
+  658  lsblk
+  659  vgs
+  660  dnf install vsftpd -y
+  661  sudo dnf install vsftpd
+  662  sudo -i
+  663  sudo -i
+  664  ll
+  665  lsblk
+  666  uptime
+  667  w
+  668  htop
+  669  lsblk
+  670  pwd
+  671  df -Th
+  672  ll
+  673  sidp -i
+  674  sudo -i
+  675  sudo -i
+  676  dnf repolist
+  677  sudo -i
+  678  ll
+  679  file rocky-ansible.pem 
+  680  sudo -i
+  681  lsblk
+  682  df -Th
+  683  ll
+  684  sudo -i
+  685  pwd
+  686  ll
+  687  man rsync
+  688  man rsync | bat
+  689  dnf install bat
+  690  sudo -i
+  691  sudo dnf install docker-ce -y
+  692  sudo dnf install docker -y
+  693  sudo -i
+  694  cd /etc/pki/tls/
+  695  ll
+  696  cd private/
+  697  ll
+  698  cd ..
+  699  ls
+  700  cd certs/
+  701  ll
+  702  ls -al
+  703  pwd
+  704  cd ..
+  705  pwd
+  706  ll
+  707  cd private/
+  708  ls -al
+  709  cd ..
+  710  yum install httpd mod_ssl -y
+  711  sudo -i
+  712  ls
+  713  sudo -i 
+  714  sudo -i
+  715  lsblk
+  716  tmux
+  717  w
+  718  sudo dnf install httpd
+  719  sudo -i
+  720  sudo -i
+  721  ll
+  722  slblk
+  723  lsblk
+  724  ll
+  725  lsblk
+  726  ansible all -m ping
+  727  ansible all 
+  728  ansible all --list-hosts
+  729  cd playbook/
+  730  ll
+  731  ansible-playbook --check modules.yaml 
+  732  rocky
+  733  sudo dnf install nginx -y
+  734  systemctl start nginx
+  735  systemctl status nginx.service 
+  736  journalctl -xeu nginx
+  737  sudo find / -name nginx
+  738  vim /etc/nginx/nginx.conf
+  739  sudo vim /etc/nginx/nginx.conf
+  740  systemctl restart nginx.service 
+  741  sudo -i
+  742  slblk
+  743  lsblk
+  744  rpm -qa nginx
+  745  systemctl status nginx.service 
+  746  systemctl enable nginx.service 
+  747  sudo -i
+  748  netstat -tulnp | grep nginx
+  749  dnf install netstat
+  750  sudo dnf install netstat
+  751  ss -ntulp | grep nginx
+  752  ls of
+  753  lsof -P 443
+  754  man lsof
+  755  lsof | grep nginx
+  756  sudo lsof | grep nginx
+  757  lsof | grep 443
+  758  sudo -i
+  759  curl localhost
+  760  systemctl status nginx.service 
+  761  ss -tulnp | grep nginx
+  762  systemctl status nginx.service 
+  763  journalctl -xeu nginx
+  764  firewall-cmd --permanent --add-service=http
+  765  firewall-cmd --reload
+  766  vim /etc/nginx/conf.d/mywebsite.conf
+  767  sudo vim /etc/nginx/conf.d/mywebsite.conf
+  768  sudo vim /var/www/mywebsite
+  769  sudo -i
+  770  date
+  771  cd scripts/
+  772  ll
+  773  cat > welcome.sh
+  774  bash welcome.sh 
+  775  touch shoppinig.sh
+  776  bash shoppinig.sh 
+  777  bash shoppinig.sh banana 50
+  778  touch test.sh
+  779  bash test.sh 
+  780  bash test.sh  linux admin
+  781  vim check_service.sh
+  782  bash check_service.sh  nginx
+  783  systemctl start nginx
+  784  ./check_service.sh httpd
+  785  bash check_service.sh httpd
+  786  bash check_service.sh  nginx
+  787  ./check_service.sh httpd
+  788  vim pass_argument.sh
+  789  bash pass_argument.sh  shell is fun
+  790  sudo -i
+  791  ll
+  792  sudo -i
+  793  cd playbook/
+  794  ll
+  795  systemctl status ntp
+  796  systemctl status chrony
+  797  sudo systemctl status chrony
+  798  systemctl status chrony.service
+  799  ll
+  800  sudo -i
+  801  sudo -i
+  802  sudo -i
+  803  sudo -i
+  804  root
+  805  sudo -i
+  806  ls -ls
+  807  ls -Z
+  808  ls -lZ
+  809  scp pre_patch_packages.txt rocky@43.204.110.6:/tmp
+  810  dd if=/dev/zero of=file bs=1G count=1
+  811  ll -lh
+  812  scp file rocky@43.204.110.6:/tmp/
+  813  scp file rocky@ansible-node1:/tmp
+  814  sftp rocky@43.204.110.6
+  815  ll
+  816  rm -rf file 
+  817  ls /tmp/sshkeypairmethod 
+  818  find / -size +1G -mtime -10
+  819  sudo find / -size +1G -mtime -10 | wc -l
+  820  sudo find / -size +1G -mtime -10
+  821  ll -h
+  822  rsync -av rocky@43.204.110.6:~/file.gz
+  823  ll
+  824  cd /tmp/
+  825  cd ~
+  826  pwd
+  827  cd /tmp/
+  828  ll
+  829  rm sshkeypairmethod 
+  830  cd
+  831  ll
+  832  rsync -avz /data rocky@43.204.110.6 .
+  833  rsync -avz /data rocky@43.204.110.6 /backup
+  834  rsync -avz ansible-playbook/ rocky@43.204.110.6 /backup
+  835  sudo rsync -avz ansible-playbook/ rocky@43.204.110.6 /backup
+  836  sudo -i
+  837  nmcli device status 
+  838  nmcli connection show 
+  839  ethtool enth0
+  840  ip route
+  841  route -n
+  842  iproute -n
+  843  iproute
+  844  ip route
+  845  ls -l
+  846  ll
+  847  lls
+  848  ls
+  849  poweroff
+  850  sudo -i
+  851  journalctl -u sshd -f
+  852  journalctl -u sshd 
+  853  journalctl -b
+  854  sudo -i
+  855  dnf update
+  856  vim sample.log
+  857  grep -l "linuxthefinalboss" *.log
+  858  grep -l "linuxthefinalboss" sample.log 
+  859  grep -l "linuxthefinalboss" *.log
+  860  grep -i "linuxthefinalboss" sample.log
+  861  grep -n "linuxthefinalboss" sample.log 
+  862  cat sample.log 
+  863  grep -n "login" sample.log 
+  864  grep -n "user" sample.log 
+  865  grep -i "user" sample.log
+  866  grep -v "linux"
+  867  grep -v "linux" sample.log 
+  868  vim pattern.txt
+  869  grep -f pattern.txt sample.log 
+  870  grep -R "lost" /home
+  871  grep -R "connection" sample.log 
+  872  cat sample.log 
+  873  grep -R "Login" sample.log 
+  874  grep -R "Login" /home/
+  875  cut -b1-3 sample.log 
+  876  cat sample.log 
+  877  cut -d' ' -f2 sample.log 
+  878  cut -d ' ' -f sample.log 
+  879  cut
+  880  cut --help
+  881  cut -c1-8 sample.log 
+  882  cat sample.log 
+  883  sed s/user/admin/go/g sample.log 
+  884  sed s/user/admin/g sample.log 
+  885  sed s/admin/rabi/go/2 sample.log 
+  886  sed s/admin/rabi/go/ sample.log 
+  887  sed 's/admin/rabi/g' sample.log
+  888  sed /user/go/I sample.log 
+  889  sed -e  /user/go/I sample.log 
+  890  uptime
+  891  sudo dnf repolist
+  892  sudo dnf update
+  893  ll
+  894  sudo -i
+  895  uptime
+  896  w
+  897  ll
+  898  m
+  899  sed '4d' sample.log 
+  900  sed '2,4s/user/go' sample.log 
+  901  awk /user/ {$print} sample.log 
+  902  awk /user/ {print} sample.log 
+  903  awk '{print $1 $3}' sample.log 
+  904  awk -F: '{print $1}' /etc/passwd
+  905  awk '{print $1 $3}' sample.log 
+  906  awk '{print $1 $6}' sample.log 
+  907  awk '{print $1,$6}' sample.log 
+  908  awk '{print $1,$4$6}' sample.log 
+  909  awk 'NR>=2 && NR<=7 {print NR,$0}' sample.log 
+  910  awk 'length($0)>10' sample.log 
+  911  awk 'length($0)>5' sample.log 
+  912  awk 'length($0)>15' sample.log 
+  913  awk 'length($0)<15' sample.log 
+  914  awk 'length($0)<1' sample.log 
+  915  awk 'length($0)<5' sample.log 
+  916  awk '$4=="linux" {print $0}' sample.log 
+  917  awk '{print $4}' sample.log 
+  918  sort sample.log 
+  919  sort -o sample.log output.log
+  920  sort -o  output.log sample.log 
+  921  cat output.log 
+  922  sort -r sample.log 
+  923  sort -n sample.log 
+  924  sort -k3n sample.log 
+  925  sort -c sample.log 
+  926  sort -c output.log 
+  927  sort -c sample.log 
+  928  sort -u sample.log 
+  929  vim sample.log 
+  930  sort -u sample.log 
+  931  uniq sample.log 
+  932  uniq -c sample.log 
+  933  uniq -d sample.log 
+  934  sort -u sample.log 
+  935  uniq -f 2 sample.log 
+  936  uniq -i sample.log 
+  937  uniq -f 5 sample.log 
+  938  grep ERROR sample.log 
+  939  grep 'ERROR' sample.log 
+  940  grep -i login sample.log 
+  941  grep user1 sample.log 
+  942  grep -n 'WARN' sample.log 
+  943  grep -c 'INFO' sample.log 
+  944  grep -v 'ERROR' sample.log 
+  945  grep -r 'ERROR' sample.log 
+  946  grep -r 'ERROR' /var/log
+  947  grep -l 'disk space low' *.log
+  948  grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}' sample.log 
+  949  grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/messages
+  950  sudi -i grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/messages
+  951  sudo -i grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/messages
+  952  sudo -i grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/secure
+  953  grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' sample.log
+  954  sudo -i grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/secure
+  955  awk '{print $4,$5}' sample.log 
+  956  awk '{print $4, $5}' sample.log 
+  957  awk '{print $4,5}' sample.log 
+  958  awk '{print $45}' sample.log 
+  959  awk '{print $4,print $5}' sample.log 
+  960  awk '$3 == "ERROR" {print $4}' sample.log 
+  961  cat sample.log 
+  962  awk '{count[$3]++} END {for (level in count) print level, count[level]}' sample.log
+  963  awk '$3 == "INFO" {sum += $2} END {print "Total INFO seconds:", sum}' sample.log
+  964  awk -F' ' 'OFS="\t" {print $4, $5}' sample.log
+  965  sed 's/user1/admin/g' sample.log
+  966  sed '/INFO/d' sample.log 
+  967  sed -n '2,5p' sample.log 
+  968  sed -i.bak 's/user1/admin/g' sample.log
+  969  cat sample.log
+  970  cat sample.log.bak 
+  971  sed -e 's/user1/admin/g' -e 's/^ERROR/ALERT: ERROR/g' sample.log
+  972  sudo -i
+  973  ll
+  974  lsbl
+  975  lsblk
+  976  journalctl -xe
+  977  journalctl 
+  978  journalctl  -r
+  979  journalctl  -n
+  980  journalctl  -n 25
+  981  journalctl -f
+  982  journalctl -k
+  983  journalctl -u ssh
+  984  sudo journalctl -u ssh
+  985  journalctl --list-boots 
+  986  less /var/log/boot.log 
+  987  journalctl -u sshd
+  988  journalctl -u ssh
+  989  journalctl _PID=1234
+  990  journalctl -p 3 -xb
+  991  man snap
+  992  dnf install htop
+  993  sudo -i
+  994  mpstat
+  995  sysctl
+  996  sudo dnf install glances -y
+  997  sudo dnf install epel-release -y
+  998  sudo dnf install glances -y
+  999  sudo firewall-cmd --permanent --add-port=61208/tcp
+ 1000  uptime -p
+ 1001  ll
+ 1002  sudo dnf install git -y
+ 1003  which git
+ 1004  git
+ 1005  cat .ssh/
+ 1006  ll
+ 1007  cd .ssh/
+ 1008  ll
+ 1009  ssh-keygen -t ed25519 -C "rabi default"
+ 1010  ll
+ 1011  cat id_ed25519.pub 
+ 1012  git clone git@github.com:rabimahato38/ansible-tutorial.git
+ 1013  ll
+ 1014  mv ansible-tutorial/  ~
+ 1015  cd
+ 1016  ll
+ 1017  cd ansible-
+ 1018  ll
+ 1019  cd ansible-tutorial/
+ 1020  ll
+ 1021  git config  --global user.name "RABI "
+ 1022  git config --global user.email "rabimahato8340@gmail.com"
+ 1023  cat ~/.gitconfig 
+ 1024  vim README.md 
+ 1025  git status 
+ 1026  git diff
+ 1027  git add README.md 
+ 1028  git diff
+ 1029  git status 
+ 1030  git commit -m "updated read me file"
+ 1031  git push origin  master
+ 1032  git push origin master
+ 1033  git branch
+ 1034  git push origin main
+ 1035  git status 
+ 1036  git branch 
+ 1037  history
+ 1038  history > history.txt
+ 1039  git status 
+ 1040  pwd
+ 1041  mkdir inventory
+ 1042  rm inventory/
+ 1043  rmdir inventory/
+ 1044  vim inventory
+ 1045  git status 
+ 1046  git add inventory 
+ 1047  git status 
+ 1048  git commit -m "first version of inventory"
+ 1049  ansible all --key-file ~/.ssh/id_ed25519.pub -i inventory -m ping
+ 1050  ansible all -i inventory -m ping
+ 1051  vim ansible.cfg
+ 1052  ls /etc/ansible/
+ 1053  less ansible.cfg 
+ 1054  ansible all -m ping
+ 1055  ansible all --list-hosts
+ 1056  ansible all -m gather_facts
+ 1057  ansible all -m gather_facts --limit 172.31.6.17
+ 1058  git status 
+ 1059  history >> history.txt 
